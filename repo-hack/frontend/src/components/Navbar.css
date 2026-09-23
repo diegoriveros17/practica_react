@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand {
+  color: #1a1a1a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-links a {
+  color: #444;
+  text-decoration: none;
+}
+
+.navbar-usuario {
+  color: #1a1a1a;
+}

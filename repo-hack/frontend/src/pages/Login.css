@@ -1,0 +1,27 @@
+.form-container {
+  max-width: 480px;
+  margin: 32px auto;
+  padding: 0 16px;
+  text-align: left;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 15px;
+}
+
+.mensaje-error {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
